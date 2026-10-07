@@ -1,0 +1,10 @@
+pytest
+pytest-django
+pytest-cov
+factory-boy
+freezegun
+mock
+pillow
+numpy
+pysocks
+pbr

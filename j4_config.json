@@ -1,0 +1,17 @@
+{
+  "name": "helpdesk",
+  "upstream": "django-helpdesk/django-helpdesk",
+  "folder": "helpdesk",
+  "settings": "tests.test_settings",
+  "tests": "tests",
+  "routes": [
+    "/",
+    "/login/",
+    "/kb/",
+    "/tickets/",
+    "/j4-missing"
+  ],
+  "id": "p2-14-helpdesk",
+  "repo": "j4groupfounders/j4-p2e-helpdesk",
+  "source": "5c2808dec2ba3b63d107b715d7d5b326feda666f"
+}
