@@ -1,0 +1,32 @@
+[
+  {
+    "file": "src/helpdesk/models.py",
+    "name": "ticket-title",
+    "old": "return f\"{self.id} {self.title}\"",
+    "new": "return \"wrong ticket\""
+  },
+  {
+    "file": "src/helpdesk/models.py",
+    "name": "ticket-identifier",
+    "old": "return f\"{self.queue.slug}-{self.id}\"",
+    "new": "return f\"{self.queue.slug}-{self.id+1}\""
+  },
+  {
+    "file": "src/helpdesk/models.py",
+    "name": "unassigned-label",
+    "old": "return _(\"Unassigned\")",
+    "new": "return _(\"Assigned\")"
+  },
+  {
+    "file": "src/helpdesk/models.py",
+    "name": "priority-mapping",
+    "old": "CSS_MAP = {1: \"danger\", 2: \"warning\", 5: \"success\"}",
+    "new": "CSS_MAP = {1: \"success\", 2: \"warning\", 5: \"danger\"}"
+  },
+  {
+    "file": "src/helpdesk/models.py",
+    "name": "status-badge",
+    "old": "return self.STATUS_CSS_CLASSES.get(self.status, \"\")",
+    "new": "return \"wrong-status\""
+  }
+]

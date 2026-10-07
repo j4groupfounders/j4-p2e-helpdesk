@@ -1,0 +1,37 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "location": null,
+    "body_sha256": "df201df9bbd3d6e2e34f09a0337e15b69c22bf1e0cace9528f45200fedb647b6"
+  },
+  {
+    "route": "/login/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "location": null,
+    "body_sha256": "92bc53f8a4fbf332865b385ae1ed5e992d06bfda101d3d861d57e74e115a5129"
+  },
+  {
+    "route": "/kb/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "location": null,
+    "body_sha256": "5f8919c373ee21cbf407b06948870587de47b187c77b74bd79688fcb33c50605"
+  },
+  {
+    "route": "/tickets/",
+    "status": 302,
+    "content_type": "text/html; charset=utf-8",
+    "location": "/login/?next=/tickets/",
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "route": "/j4-missing",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "location": null,
+    "body_sha256": "5547992afdadb59737c5c0feb1a35dff294cd27145bf290c031737ecf8a2577d"
+  }
+]
